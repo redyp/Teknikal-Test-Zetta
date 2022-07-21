@@ -15,6 +15,8 @@ let numbers = {
 
 function result(numbers) {
    // Your Code Here
+   [numbers.a, numbers.b] = [numbers.b, numbers.a];
+   return numbers;
 }
  
 console.log(result(numbers));
